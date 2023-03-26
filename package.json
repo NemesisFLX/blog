@@ -15,8 +15,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@astrojs/mdx": "^0.18.0",
     "@astrojs/rss": "^2.1.0",
+    "@fontsource/montserrat": "^4.5.14",
     "@resvg/resvg-js": "^2.4.1",
+    "@tanstack/react-table": "^8.7.9",
     "astro": "^2.0.8",
     "fuse.js": "^6.6.2",
     "github-slugger": "^2.0.0",
@@ -44,6 +47,11 @@
     "prettier-plugin-tailwindcss": "^0.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "overrides": {
+    "astro": {
+      "zod": "3.21.4"
+    }
   },
   "config": {
     "commitizen": {
